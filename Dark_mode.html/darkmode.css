@@ -1,0 +1,15 @@
+:root {
+  --color-fondo: #ffffff;
+  --color-fuente: #000000;
+  --color-boton: #f8f8f8;
+}
+body.darkmode {
+  --color-fondo: #4a4444;
+  --color-fuente: #ffffff;
+  --color-boton: #333333;
+}
+body{
+  background-color: var(--color-fondo);
+  color: var(--color-fuente);
+  transition: background-color 0.3s, color 0.3s;
+}
