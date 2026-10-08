@@ -1,0 +1,15 @@
+.button_photo:hover{
+  background-color: aliceblue;
+  color: black;
+  border: 1px solid darkmagenta;
+}
+.button_photo{
+  size: 50px;
+  position: relative;
+  left: 550px;
+  top: 300px;
+  color: rgb(0, 0, 0);
+  background-color: blue;
+  height: 50px;
+  width: 250px;
+}
